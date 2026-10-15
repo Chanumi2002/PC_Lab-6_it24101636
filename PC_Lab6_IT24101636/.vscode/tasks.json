@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MPI: build and test",
+      "type": "process",
+      "command": "python3",
+      "args": ["scripts/test_lab.py"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "MPI: configure IntelliSense from installed Open MPI",
+      "type": "process",
+      "command": "python3",
+      "args": ["scripts/configure_intellisense.py"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    }
+  ]
+}

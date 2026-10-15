@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Missing prerequisite: mpicxx",
+    "command": [
+      "mpicxx",
+      "--version"
+    ],
+    "status": "NOT TESTED",
+    "error": "[Errno 2] No such file or directory: 'mpicxx'"
+  },
+  {
+    "name": "Missing prerequisite: mpirun",
+    "command": [
+      "mpirun",
+      "--version"
+    ],
+    "status": "NOT TESTED",
+    "error": "[Errno 2] No such file or directory: 'mpirun'"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Hello (one MPI rank, WSL)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/ex0_hello",
+      "cwd": "${workspaceFolder}",
+      "args": [],
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false,
+      "preLaunchTask": "MPI: build and test"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/mahaw/Downloads/SE4060_MPI_Lab6/SE4060_MPI_Lab6/src",
+      "program": "c:/Users/mahaw/Downloads/SE4060_MPI_Lab6/SE4060_MPI_Lab6/src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

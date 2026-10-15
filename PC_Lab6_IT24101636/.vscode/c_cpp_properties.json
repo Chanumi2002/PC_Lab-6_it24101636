@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "windows-clang-x64",
+      "compilerPath": "/usr/bin/mpicc",
+      "compilerArgs": [
+        "-x",
+        "c++"
+      ],
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "cStandard": "${default}",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-clang-x64"
+    }
+  ],
+  "version": 4
+}
